@@ -2,13 +2,43 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
 }
 
 html, body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background: #1b1b1b;
+  gap: 20px;
+}
+#main section {
+  height: 100%;
+  flex-grow: 1;
+  background-color: rgb(224, 41, 16);
+  background-size: cover;
+  background-position: center;
+  transition: all 0.7s ease-in-out;
+  cursor: pointer;
+}
+#main section:hover {
+  flex-grow: 3;
+}
+#main section:nth-child(1) {
+  background-image: url("https://i.pinimg.com/1200x/bf/00/47/bf00475c31e12dd2cfaf754cf7b1beb9.jpg");
+}
+#main section:nth-child(2) {
+  background-image: url("https://i.pinimg.com/736x/63/54/3e/63543e7a6e8923837633d02c9d679722.jpg");
+}
+#main section:nth-child(3) {
+  background-image: url("https://i.pinimg.com/736x/ed/bc/1c/edbc1c70e6c97bd1c96dbda6e572170c.jpg");
+}
+#main section:nth-child(4) {
+  background-image: url("https://i.pinimg.com/736x/25/63/df/2563dfbb201d484f6a04dbe23de7f986.jpg");
+}
+#main section:nth-child(5) {
+  background-image: url("https://i.pinimg.com/736x/0d/14/48/0d1448aa00ea970ac9040fe749abaed2.jpg");
 }/*# sourceMappingURL=style.css.map */
