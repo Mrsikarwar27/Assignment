@@ -1,0 +1,139 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'ABeeZee', sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+h2{
+      margin-bottom: 15px;
+      font-family: Arial, sans-serif;
+      color: #333;
+      background-color: white;
+      margin-left: 20vh;
+      margin-right: 20vh;
+    padding-top: 2vh;
+
+     
+   
+}
+
+
+p{
+    margin-bottom: 15px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: white;
+    margin-left: 20vh;
+    margin-right: 20vh;
+    padding-top: 2vh;
+    font-size: 20px;
+
+}
+
+#div{
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #19183B;
+    color: white;
+    text-align: center;
+}
+#AboutMe{
+ margin-left: 20vh;
+      margin-right: 20vh;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      padding: 30px;
+      background: #C2A68C;
+      border-radius: 40px;   /* curve */
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      text-align: center;
+  
+}
+
+#EDUCATION{
+  
+      margin-left: 20vh;
+      margin-right: 20vh;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      padding: 30px;
+      background: #E6D8C3;
+      border-radius: 20px;   /* curve */
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      text-align: center;
+   
+  
+}
+#SKILLS{
+ margin-left: 20vh;
+      margin-right: 20vh;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      padding: 30px;
+      background: #898AC4;
+      border-radius: 20px;   /* curve */
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      text-align: center;
+}
+
+#PROJECTS{
+    margin-left: 20vh;
+      margin-right: 20vh;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      padding: 30px;
+      background: #D6A99D;
+      border-radius: 20px;   /* curve */
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      text-align: center;
+}
+
+#CONTACTME{
+  margin-left: 20vh;
+      margin-right: 20vh;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      padding: 30px;
+      background: #9CAFAA;
+      border-radius: 20px;   /* curve */
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      text-align: center;
+}
+.name{
+    font-size: 50px;
+    font-family: 'Arial Black', sans-serif;
+    color: white;
+    text-align: center;
+
+}
+footer{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #19183B;
+    color: white;
+    text-align: center;
+}
+img{
+     margin: 20vh;                
+      padding: 30px;
+      border-radius: 20px;
+      background-size: cover;           
+      background-position: center;     
+      color: white;                     
+      box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+      text-align: center;
+}

@@ -1,0 +1,59 @@
+@font-face{
+    font-family: danger;
+    src: url(./DangerZone-w1Pe3.ttf);
+}
+@font-face{
+    font-family: danger1;
+    src: url(./DangerDiabolik-J5lB.ttf);
+}
+@font-face{
+    font-family: danger3;
+    src: url(./brugenfield-ax9re.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+
+#div{
+    background-image: url(./AI_Generated_Image_2025-10-01.png);
+    background-size: cover;
+    height: 100%;
+
+  
+}
+H1{
+    color: rgb(238, 214, 0);
+    text-shadow: 2px 2px 4px #0300c0;
+    text-align: center;
+    padding-top: 5%;
+    font-size: 100px;
+    font-family: danger;
+    
+}
+h3{
+    color: rgb(252, 252, 252);
+    text-shadow: 2px 2px 4px #0300c0;
+    margin-left: 25%;
+    padding-top: 5px;
+    font-size: 30px;
+    font-family: danger;
+    font-weight: 400;
+}
+h2{
+    color: rgb(252, 252, 252);
+    text-shadow: 2px 2px 4px #0300c0;
+    margin-left: 60%;
+    padding-top: 5px;
+    font-size: 30px;
+    font-family: danger3;
+    font-weight: 400;
+}
+
