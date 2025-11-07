@@ -4,7 +4,7 @@
 // let age = +prompt("Enter the age ");
 // if(age>= 18){
 //     console.log("Eligible ");
-    
+
 // }else{
 // console.log("Not eligible");
 
@@ -16,7 +16,7 @@
 
 // for(let i =1; i<=10; i++){
 //     console.log(`5 * ${i} = ${5 * i}`);
-    
+
 // }
 
 // 9. Count how many numbers between 1 and 15 are greater than 8
@@ -44,10 +44,10 @@
 
 //     }else if(i === attempts -1){
 //       console.log("Account Locked");
-      
+
 //     }else{
 //         console.log("plzz try again later");
-        
+
 //     }
 // }
 
@@ -70,7 +70,7 @@
 //     if(i%7===0){
 //         console.log(i)
 //     }
-    
+
 // }
 
 // 14. Sum of all odd numbers from 1 to 30
@@ -88,10 +88,20 @@
 
 // 15. Keep asking number until user enters an even number
 // Use while loop. Stop only if input is even.
-while(true){
-   let even = prompt("enter the number") 
-    if(even%2===0) break;
+// while(true){
+//    let even = prompt("enter the number") 
+//     if(even%2===0) break;
 
 
 
-}
+// }
+
+//
+
+const marvel = ["ironman", "captainAmerica", "hulk"];
+const dc = ["batman", "superman", "flash"];
+
+const hero = [...marvel , ...dc]
+console.log(hero);
+
+
