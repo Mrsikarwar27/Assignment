@@ -98,10 +98,21 @@
 
 //
 
-const marvel = ["ironman", "captainAmerica", "hulk"];
-const dc = ["batman", "superman", "flash"];
+// const marvel = ["ironman", "captainAmerica", "hulk"];
+// const dc = ["batman", "superman", "flash"];
 
-const hero = [...marvel , ...dc]
-console.log(hero);
+// const hero = [...marvel , ...dc]
+// console.log(hero);
+// const combinedHeroes = [1,3,45,[1,32,34,],44,3,4,[34]];
+// const flattenedHeroes = combinedHeroes.flat(Infinity);
+// console.log(flattenedHeroes);
 
 
+
+// TODO:  cmd+shift+p = zenmode
+// FIXME:
+
+// const arr = [1,2,3,4,5,6,7,8,9,10];
+// arr.forEach((num)=> {
+//     console.log(num);
+// });
