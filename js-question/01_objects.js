@@ -72,3 +72,4 @@ console.log(courses.courses.html.duration.time);
 let {courses : {html: {duration:{time}}}} =courses;
 
 console.log(time);
+
