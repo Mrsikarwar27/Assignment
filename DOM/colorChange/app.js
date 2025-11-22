@@ -11,3 +11,9 @@ btn.addEventListener("click",function(){
 
   
 })
+
+
+
+var arr = ["vijay","sambhavi","Tanya","Tripti","vansh","nanu","kalu","som"]
+var a =  Math.floor(Math.random()*arr.length);
+console.log(arr[a])

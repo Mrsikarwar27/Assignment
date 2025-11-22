@@ -42,34 +42,36 @@
 
 // TODO: Destructuring 
 
-const courses ={
-    name : "vijay",
-    courses : {
+// const courses ={
+//     name : "vijay",
+//     courses : {
 
-        html: {
-            tag: "<html>",
+//         html: {
+//             tag: "<html>",
 
-            duration: {
-                time :"15 days",
+//             duration: {
+//                 time :"15 days",
         
 
-    },
-    addreess :{
-     city : "gwalior",
-        state : "mp"
+//     },
+//     addreess :{
+//      city : "gwalior",
+//         state : "mp"
 
-    }
+//     }
     
-}
-}
-}
+// }
+// }
+// }
 // console.log(courses.courses.js);
 // let  { courses: {js: jsCourse}} = courses;
 // console.log(jsCourse); 
 
-console.log(courses.courses.html.duration.time);
-// FIXME: {this is cool how it is Destructuring we can simply by the time} 
-let {courses : {html: {duration:{time}}}} =courses;
+// console.log(courses.courses.html.duration.time);
+// // FIXME: {this is cool how it is Destructuring we can simply by the time} 
+// let {courses : {html: {duration:{time}}}} =courses;
 
-console.log(time);
+// console.log(time);
+
+
 

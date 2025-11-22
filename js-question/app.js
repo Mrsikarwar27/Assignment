@@ -192,13 +192,18 @@
 // }
 // console.log(reverse); 
  //-------------------------------------------------
-// let fname = "John";
-// let lname = fname
-// lname = "Doe";
-// console.log(lname);
+// let name = "John";
+// let name1 = name;
+// name1 = "Doe";
+// console.log(name);
 
-let p1 ={
-    fname : "vijay"
-}
-let p2 = p1;
-console.log(p2);
+// let p1 ={
+//     fname : "vijay"
+// }
+// let p2 = p1;
+// console.log(p2);
+// p2 = "ajay"
+// console.log(p1);
+
+
+
