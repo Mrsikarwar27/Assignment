@@ -116,3 +116,89 @@
 // arr.forEach((num)=> {
 //     console.log(num);
 // });
+
+
+
+// const teas = ["Green Tea","Black Tea","oolong Tea","White Tea","Herbal Tea"]
+// console.log(teas);
+
+// add:chamomile Tea
+// teas.push("chamomile Tea");
+// console.log(teas);
+
+//Remove krna "oolong Tea"
+
+// const index = teas.indexOf("oolong Tea");
+// if(index > -1){
+//   teas.splice(index,1);
+// }
+
+// teas.splice(2,1)
+// console.log(teas)
+// Q=> filter the list to include only caffeinated 
+
+// const caffeinatedTeas = teas.filter(function(tea){
+//     return tea !== "Herbal Tea";
+// });
+// console.log(caffeinatedTeas);
+
+// q=> count kitne caffienated teas hai
+
+// let count =0;
+// teas.forEach(function(tea){
+//     if(tea !== "Herbal Tea"){
+//         count++;
+//     }
+// });
+// console.log(count);
+
+//or
+// let count =0;
+// for(let i =0;i<teas.length; i++){
+//     if(teas[i] !== "Herbal Tea"){
+//         count++;
+//     }
+// }
+// console.log(count);
+
+
+// q=> teas ke sarre values ko uppercase me convert krdo
+
+//  let upcase = [];
+//  for(let i =0; i<teas.length; i++){
+//     upcase.push(teas[i].toUpperCase());
+//  }
+//  console.log(upcase)
+
+
+//Q => find the most character name of teas
+// const teas = ["Green Tea","Black Tea","oolong Tea","White Tea","Herbal Tea"]
+
+// let longestTea ="";
+
+// for(let i=0; i<teas.length; i++){
+//     if(teas[i].length > longestTea.length){
+//        longestTea =  teas[i] ;
+//     }
+// }
+// console.log(longestTea);
+
+// q -- reverse krdo ek new arr me 
+// const teas = ["Green Tea","Black Tea","oolong Tea","White Tea","Herbal Tea"]
+
+// let reverse =[];
+// for(let i = teas.length-1; i >= 0; i--){
+//     reverse.push(teas[i])
+// }
+// console.log(reverse); 
+ //-------------------------------------------------
+// let fname = "John";
+// let lname = fname
+// lname = "Doe";
+// console.log(lname);
+
+let p1 ={
+    fname : "vijay"
+}
+let p2 = p1;
+console.log(p2);
